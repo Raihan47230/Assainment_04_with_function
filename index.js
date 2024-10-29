@@ -1,7 +1,7 @@
 // // Problem 01
 
 
-function calculateTax(income, expenses) {
+ function calculateTax(income, expenses) {
      if(0>income || 0>expenses || income < expenses){
          return "Invalid Input"
      }
